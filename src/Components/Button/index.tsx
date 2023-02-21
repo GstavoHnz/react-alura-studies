@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.scss';
 
 export default class Button extends React.Component{
     render(){
         return(
-            <button>
-                Clique aqui
+            <button className='button'>
+                Adicionar
             </button>
         )
     }
